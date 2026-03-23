@@ -1,4 +1,4 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext } from "react";
 
 export interface PulseConfig {
   projectSlug: string;
@@ -7,7 +7,7 @@ export interface PulseConfig {
 }
 
 export const PulseConfigCtx = createContext<PulseConfig>({
-  projectSlug: '',
+  projectSlug: "pulse-demo",
   environmentId: null,
   clientId: null,
 });
